@@ -1,4 +1,4 @@
-FROM teastore_base:latest
+FROM w3333/teastore_base:latest
 LABEL maintainer="Dhanya Warrier"
 COPY --from=mavenbuild /root/foldername/TeaStore/utilities/tools.descartes.teastore.docker.all/target/tools.descartes.teastore.persistence.war /usr/local/tomcat/webapps/tools.descartes.teastore.persistence.war
 # ENV REGISTRY_HOST 172.17.0.1
